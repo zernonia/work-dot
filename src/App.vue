@@ -8,8 +8,4 @@
   </div>
 </template>
 
-<style>
-#app {
-  @apply bg-dark-400 text-white;
-}
-</style>
+<style></style>
