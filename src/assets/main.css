@@ -8,3 +8,7 @@
     font-feature-settings: "case", "cpsp", "salt";
   }
 }
+
+#app {
+  @apply bg-dark-400 text-white;
+}

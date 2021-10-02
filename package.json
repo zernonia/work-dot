@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.24.0",
+    "app-store-scraper": "^0.17.0",
     "chrome-aws-lambda": "^10.1.0",
+    "google-play-scraper": "^8.0.4",
     "puppeteer-core": "^10.4.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.11"
