@@ -8,11 +8,14 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.24.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.4.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.11"
   },
   "devDependencies": {
     "@iconify/json": "^1.1.409",
+    "@vercel/node": "^1.12.1",
     "@vitejs/plugin-vue": "^1.9.2",
     "typescript": "^4.4.3",
     "unplugin-icons": "^0.11.4",
