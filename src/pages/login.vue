@@ -42,8 +42,8 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import { useRouter } from "vue-router"
-import { userState } from "../store"
-import { supabase } from "../supabase"
+import { userState } from "@/store"
+import { supabase } from "@/supabase"
 
 const router = useRouter()
 const form = ref({
@@ -61,12 +61,3 @@ const submit = async () => {
   }
 }
 </script>
-
-<style>
-label {
-  @apply text-sm font-medium py-2 w-max;
-}
-input {
-  @apply bg-dark-50 rounded-md px-3 py-2 text-sm ring ring-transparent transition focus:outline-none focus:ring-blue-300;
-}
-</style>

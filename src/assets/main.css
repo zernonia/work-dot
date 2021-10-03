@@ -10,5 +10,12 @@
 }
 
 #app {
-  @apply bg-dark-400 text-white;
+  @apply bg-gray-100;
+}
+
+label {
+  @apply text-sm font-medium py-2 w-max;
+}
+input {
+  @apply bg-dark-50 rounded-md px-3 py-2 text-sm ring ring-transparent transition focus:outline-none focus:ring-blue-300;
 }

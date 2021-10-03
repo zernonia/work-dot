@@ -61,12 +61,3 @@ const submit = async () => {
   }
 }
 </script>
-
-<style>
-label {
-  @apply text-sm font-medium py-2 w-max;
-}
-input {
-  @apply bg-dark-50 rounded-md px-3 py-2 text-sm ring ring-transparent transition focus:outline-none focus:ring-blue-300;
-}
-</style>
