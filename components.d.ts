@@ -10,6 +10,11 @@ declare module 'vue' {
     ElementAppleWhite: typeof import('C:/Coding/work-dot/src/components/Element/AppleWhite.vue')['default']
     ElementPlayStore: typeof import('C:/Coding/work-dot/src/components/Element/PlayStore.vue')['default']
     HelloWorld: typeof import('C:/Coding/work-dot/src/components/HelloWorld.vue')['default']
+    ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
+    IIcOutlineStarBorderPurple500: typeof import('~icons/ic/outline-star-border-purple500')['default']
+    IIcOutlineStarPurple500: typeof import('~icons/ic/outline-star-purple500')['default']
+    Star: typeof import('C:/Coding/work-dot/src/components/Star.vue')['default']
+    Stars: typeof import('C:/Coding/work-dot/src/components/Stars.vue')['default']
   }
 }
 

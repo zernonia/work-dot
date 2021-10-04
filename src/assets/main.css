@@ -19,3 +19,21 @@ label {
 input {
   @apply bg-dark-50 rounded-md px-3 py-2 text-sm ring ring-transparent transition focus:outline-none focus:ring-blue-300;
 }
+
+.star-rating {
+  color: blue;
+  display: inline-block;
+  font-size: 2em;
+  position: relative;
+}
+
+.star-rating__max,
+.star-rating__current {
+  position: absolute;
+  top: 0;
+}
+
+.star-rating__current {
+  overflow: hidden;
+  white-space: nowrap;
+}
