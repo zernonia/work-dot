@@ -2,20 +2,17 @@
 // We suggest you to commit this file into source control
 // Read more: https://github.com/vuejs/vue-next/pull/3399
 
-declare module 'vue' {
+declare module "vue" {
   export interface GlobalComponents {
-    AppleBlack: typeof import('C:/Coding/work-dot/src/components/Element/AppleBlack.vue')['default']
-    AppleWhite: typeof import('C:/Coding/work-dot/src/components/Element/AppleWhite.vue')['default']
-    ElementAppleBlack: typeof import('C:/Coding/work-dot/src/components/Element/AppleBlack.vue')['default']
-    ElementAppleWhite: typeof import('C:/Coding/work-dot/src/components/Element/AppleWhite.vue')['default']
-    ElementPlayStore: typeof import('C:/Coding/work-dot/src/components/Element/PlayStore.vue')['default']
-    HelloWorld: typeof import('C:/Coding/work-dot/src/components/HelloWorld.vue')['default']
-    ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
-    IIcOutlineStarBorderPurple500: typeof import('~icons/ic/outline-star-border-purple500')['default']
-    IIcOutlineStarPurple500: typeof import('~icons/ic/outline-star-purple500')['default']
-    Star: typeof import('C:/Coding/work-dot/src/components/Star.vue')['default']
-    Stars: typeof import('C:/Coding/work-dot/src/components/Stars.vue')['default']
+    AppHeaderStyle1: typeof import("C:/Coding/work-dot/src/components/AppHeader/Style1.vue")["default"]
+    AppHeaderStyle2: typeof import("C:/Coding/work-dot/src/components/AppHeader/Style2.vue")["default"]
+    AppHeaderStyle3: typeof import("C:/Coding/work-dot/src/components/AppHeader/Style3.vue")["default"]
+    ElementAppleBlack: typeof import("C:/Coding/work-dot/src/components/Element/AppleBlack.vue")["default"]
+    ElementAppleWhite: typeof import("C:/Coding/work-dot/src/components/Element/AppleWhite.vue")["default"]
+    ElementPlayStore: typeof import("C:/Coding/work-dot/src/components/Element/PlayStore.vue")["default"]
+    HelloWorld: typeof import("C:/Coding/work-dot/src/components/HelloWorld.vue")["default"]
+    Stars: typeof import("C:/Coding/work-dot/src/components/Stars.vue")["default"]
   }
 }
 
-export { }
+export {}
